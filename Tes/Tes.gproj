@@ -1,0 +1,21 @@
+<project>
+ <properties autorotation="0" encryptAssets="0" fps="60" scaleMode="5" mouseToTouch="1" iosDevice="0" packageName="com.pigo.pigo" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" encryptCode="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <folder name="res">
+  <file source="res/turn2track.png"/>
+  <file source="res/track5.png"/>
+  <file source="res/track4.png"/>
+  <file source="res/track3.png"/>
+  <file source="res/track2.png"/>
+  <file source="res/track1.png"/>
+  <file source="res/snowball.png"/>
+  <file source="res/salmon.png"/>
+  <file source="res/pigo.png"/>
+  <file source="res/leftturn.png"/>
+  <file source="res/icetrack.png"/>
+  <file source="res/gem.png"/>
+  <file source="res/falltrack.png"/>
+ </folder>
+ <file source="Main.lua"/>
+</project>
