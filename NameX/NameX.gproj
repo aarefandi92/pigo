@@ -1,0 +1,48 @@
+<project>
+ <properties autorotation="0" encryptAssets="0" fps="60" scaleMode="0" mouseToTouch="1" iosDevice="0" packageName="com.pigo.pigo" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" encryptCode="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <file source="../arial-36.txt"/>
+ <file source="../compass-pointer.png"/>
+ <file source="../compass-background.png"/>
+ <file source="../arial-36.png"/>
+ <file source="../arial-18.txt"/>
+ <file source="../arial-18.png"/>
+ <folder name="res">
+  <folder name="sounds">
+   <file source="res/sounds/salmon.wav"/>
+   <file source="res/sounds/Jump10.wav"/>
+   <file source="res/sounds/gem.wav"/>
+   <file source="res/sounds/die.wav"/>
+   <file source="res/sounds/BoxCat_Games_-_08_-_CPU_Talk.mp3"/>
+   <file source="res/sounds/BoxCat_Games_-_04_-_B-3.mp3"/>
+  </folder>
+  <folder name="fonts">
+   <file source="res/fonts/PoetsenOneRegular.otf"/>
+   <file source="res/fonts/primer print.ttf"/>
+   <file source="res/fonts/primer print bold.ttf"/>
+   <file source="res/fonts/Oregon LDO Bold.ttf"/>
+  </folder>
+  <file source="../Tes/res/falltrack.png"/>
+  <file source="../Tes/res/gem.png"/>
+  <file source="../Tes/res/icetrack.png"/>
+  <file source="../Tes/res/leftturn.png"/>
+  <file source="../Tes/res/pigo.png"/>
+  <file source="../Tes/res/salmon.png"/>
+  <file source="../Tes/res/snowball.png"/>
+  <file source="../Tes/res/track1.png"/>
+  <file source="../Tes/res/track2.png"/>
+  <file source="../Tes/res/track3.png"/>
+  <file source="../Tes/res/track4.png"/>
+  <file source="../Tes/res/track5.png"/>
+  <file source="../Tes/res/turn2track.png"/>
+  <file source="res/pigo.png"/>
+ </folder>
+ <file source="main.lua"/>
+ <file source="acceloHandler.lua"/>
+ <file source="compass.lua"/>
+ <file source="distance.lua"/>
+ <file source="obstacleManager.lua"/>
+ <file source="collisionHandler.lua"/>
+ <dependency from="acceloHandler.lua" to="distance.lua"/>
+</project>
