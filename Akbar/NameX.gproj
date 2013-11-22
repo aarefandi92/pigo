@@ -1,0 +1,43 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="0" mouseToTouch="1" iosDevice="0" packageName="com.tekmob.pigo" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <file source="HUDGem.lua"/>
+ <file source="pigo.lua"/>
+ <file source="../18 nov adit/NameX/distance.lua"/>
+ <file source="HUDSalmon.lua"/>
+ <file source="scores.lua"/>
+ <folder name="res">
+  <file source="res/fall.png"/>
+  <file source="res/ice.png"/>
+  <folder name="fonts">
+   <file source="../../../Dropbox/TekMob/Assets/poetsen/PoetsenOne-Regular.otf"/>
+   <file source="res/fonts/primer print.ttf"/>
+   <file source="res/fonts/primer print bold.ttf"/>
+   <file source="res/fonts/Oregon LDO Bold.ttf"/>
+  </folder>
+  <file source="../../../Dropbox/TekMob/Assets/salmon.png"/>
+  <file source="../../../Dropbox/TekMob/Assets/gem.png"/>
+  <file source="../Assets/pigo.png"/>
+  <file source="C:/Users/Aditya/Dropbox/TekMob/pigo.png"/>
+  <file source="../Tes/res/falltrack.png"/>
+  <file source="../Tes/res/gem.png"/>
+  <file source="../Tes/res/icetrack.png"/>
+  <file source="../Tes/res/leftturn.png"/>
+  <file source="../Tes/res/pigo.png"/>
+  <file source="../Tes/res/salmon.png"/>
+  <file source="../Tes/res/snowball.png"/>
+  <file source="../Tes/res/track1.png"/>
+  <file source="../Tes/res/track2.png"/>
+  <file source="../Tes/res/track3.png"/>
+  <file source="../Tes/res/track4.png"/>
+  <file source="../Tes/res/track5.png"/>
+  <file source="../Tes/res/turn2track.png"/>
+ </folder>
+ <file source="obstacleManager.lua"/>
+ <file source="acceloHandler.lua"/>
+ <file source="collisionHandler.lua"/>
+ <file source="assets/box.png"/>
+ <file source="assets/obstacle-stone.png"/>
+ <file source="main.lua"/>
+</project>
